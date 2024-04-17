@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 100px 0;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.products {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: crimson;
+}
+
+.products img {
+    border-radius: 5px;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 16px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
